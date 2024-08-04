@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>About My Life; KANG Jihun</title>
+            <link rel="stylesheet" href="styles/meyer-reset.css"/>
+            <link rel="stylesheet" href="styles/1-font-format-px.css"/>
+            <link rel="stylesheet" href="styles/2-color-format.css"/>
+            <link rel="stylesheet" href="styles/box-styling.css"/>
+            <link rel="stylesheet" href="styles/positioning.css"/>
+            <link rel="stylesheet" href="styles/layout-floating.css"/>
+
+
+        <style>
+            h2{
+                text-shadow: 5px 5px 5px #000000, 5px 5px 5px #ffffff;
+                position: relative;
+                animation-duration: 3s;
+                animation-name:bounce;
+            }
+            .inset-shadow {
+                -moz-box-shadow: inset 10px 10px 10px rgb(26, 82, 4);
+                -webkit-box-shadow: inset 10px 10px 10px rgb(26, 82, 4);
+                box-shadow: inset 10px 10px 10px rgb(26, 82, 4);
+            }
+            body, .inset-shadow, header#masthead, footer{
+                border-radius: 30px;
+            }
+            @keyframes bounce {
+                from {
+                    top: 0px;
+                    animation-timing-function: ease-out;
+                }
+                25% {
+                    top: -20px;
+                    animation-timing-function: ease-in;
+                }
+                50% {
+                    top: 0px;
+                    animation-timing-function: ease-out;
+                }
+                75% {
+                    top: -10px;
+                    animation-timing-function: ease-in;
+                }
+                to {
+                    top: 0px;
+                }
+            }
+            
+            table {
+                border-collapse: collapse;
+            } 
+            caption { 
+                font-size: .8125em; 
+                font-weight: bold; 
+                margin: .5em; 
+            } 
+            th,td { 
+                font-size: .875em; 
+                padding: .5em;
+            }
+            td {
+                border: 3px solid rgb(0, 0, 0);
+            } 
+            td {
+                background-color: rgb(255, 255, 255);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="inset-shadow">
+            <header id="masthead" role="banner">
+                <nav role="navigation">
+                    <ul id="toc">
+                        <li><a href="index.html">Elementary Times</a></li>
+                        <li><a href="index2.html">Middle & High School Times</a></li>
+                        <li><a href="index3.html">APU</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="content" role="main">
+                <article class="Overview">
+
+                   <section class="method">
+                        <h2 id="intro">APU</h2>
+                        <p>
+                        After entering APU, I am enjoying my college life. I went to so many places. I made a lot of friends. 
+                        I took many pictures. From now on, I want to share the pictures I took on APU.
+                        </p>
+                        <table> 
+                            <caption><strong>My APU Life</strong></caption> 
+                            <tbody>
+                            <tr>
+                                <th scope="row"></th>
+                                <td><p><img src="images/3_1.JPG" width="160" height="120" alt="Universal Studio"/></p></td> 
+                                <td><p><img src="images/3_2.JPG" width="160" height="120" alt="Yufuin Mt"/></p></td>  
+                            </tr> 
+                            <tr> 
+                                <th scope="row"></th>
+                                <td><p><img src="images/3_3.JPG" width="160" height="120" alt="ESF"/></p></td> 
+                                <td><p><img src="images/3_4.JPG" width="160" height="120" alt="PRENGO"/></p></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row"></th>
+                                <td><p><img src="images/3_5.JPG" width="160" height="120" alt="PRENGO2"/></p></td> 
+                                <td><p><img src="images/3_6.JPG" width="160" height="120" alt="FLAG"/></p></td> 
+                            </tr>
+                        </table>                         
+                   </section>
+                </article>
+            </div>
+
+            <footer role="contentinfo">
+                <ul id="ft">
+                    <li><address> Author Contact:
+                        <a href="mailto:jihuka19@apu.ac.jp">jihuka19@apu.ac.jp</a>
+                    </address></li>
+                    <li id="cp"><small>&copy; Copyright 2021. All rights reserved.</small></li>
+                    <li id="ts">
+                        Last modified on: <time datetime="2021-02-03" pubdate="pubdate">
+                        February 3, 2021</time></li>
+                </ul>
+            </footer>
+        </div>
+
+    </body>
+</html>

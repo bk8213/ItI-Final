@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background: #064b1d;
+}
+
+.inset-shadow {
+    background: #4c7c44
+}
+
+header#masthead {
+    background-color: #54b551;
+}
+
+div#sidebar, footer {
+    background: #54b551;
+}
+
+body {
+    color: #ffffff;
+}
+
+h2, h3 {
+    color: #d2f8ac
+}
+
+div#sidebar h3, a:link {
+    color: #fafafa
+}
+
+li#ts, a:hover, a:visited {
+    color: #dbf114;
+}

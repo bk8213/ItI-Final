@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>About My Life; KANG Jihun</title>
+            <link rel="stylesheet" href="styles/meyer-reset.css"/>
+            <link rel="stylesheet" href="styles/1-font-format-px.css"/>
+            <link rel="stylesheet" href="styles/2-color-format.css"/>
+            <link rel="stylesheet" href="styles/box-styling.css"/>
+            <link rel="stylesheet" href="styles/positioning.css"/>
+            <link rel="stylesheet" href="styles/layout-floating.css"/>
+
+
+        <style>
+            h2{
+                text-shadow: 5px 5px 5px #000000, 5px 5px 5px #ffffff;
+                position: relative;
+                animation-duration: 3s;
+                animation-name:bounce;
+            }
+            .inset-shadow {
+                -moz-box-shadow: inset 10px 10px 10px rgb(26, 82, 4);
+                -webkit-box-shadow: inset 10px 10px 10px rgb(26, 82, 4);
+                box-shadow: inset 10px 10px 10px rgb(26, 82, 4);
+            }
+            body, .inset-shadow, header#masthead, footer{
+                border-radius: 30px;
+            }
+            @keyframes bounce {
+                from {
+                    top: 0px;
+                    animation-timing-function: ease-out;
+                }
+                25% {
+                    top: -20px;
+                    animation-timing-function: ease-in;
+                }
+                50% {
+                    top: 0px;
+                    animation-timing-function: ease-out;
+                }
+                75% {
+                    top: -10px;
+                    animation-timing-function: ease-in;
+                }
+                to {
+                    top: 0px;
+                }
+            }
+            </style>
+    </head>
+
+    <body>
+        <div class="inset-shadow">
+            <header id="masthead" role="banner">
+                <nav role="navigation">
+                    <ul id="toc">
+                        <li><a href="index.html">Elementary Times</a></li>
+                        <li><a href="index2.html">Middle & High School Times</a></li>
+                        <li><a href="index3.html">APU</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="content" role="main">
+                <article class="Overview">
+                    <h2 id="intro">Middle & High School Times</h2>
+
+                    <p><img src="images/2_Science.JPG" width="160" height="120" alt="Me playing soccer"/>
+                    When I entered <abbr title="Hupyeong Middle School">middle school</abbr>, I <mark>concentrated more on studying.</mark> 
+                    In <a href="index.html">elementary school</a>, I studied what I wanted, 
+                    while in middle school, I started to study what I needed. 
+                    I lacked a lot more than I thought. Also, I had a dream of science high school. 
+                    I tried hard to achieve that dream. Naturally, it became impossible to spend time assembling books and blocks. 
+                    As a result of hard work, I entered a <abbr title="Gangwon Science High School">science high school</abbr> with excellent grades. 
+                    In science high school, I became interested in <strong>earth science</strong> and fell in love with it.
+                    </p>
+
+                    <section class="method">
+                        <h2>My Hobby That Time</h2>
+
+                        <p><img src="images/2_Soccer.JPG" width="160" height="120" alt="Me playing soccer"/>
+                            After I went to middle school, I became very interested in <strong>soccer</strong>, not <a href="index.html">books and block assembly</a>
+                            Every day during the break between classes, I ran out to the playground with the ball and enjoyed soccer with my friends. 
+                            Now that I think about it, I think I had fun exercising for the first time thanks to soccer. 
+                            Also, I could make a lot of friends and develop social skills by playing soccer. 
+                            For your information, my favorite team is <strong>Chelsea</strong>. <strong>Blue is the color</strong>
+                        </p>
+                    </section>
+
+                    <section class="method">
+                        <h2>A Little Boast</h2>
+                        
+                        <p><img src="images/2_Harvard.JPG" width="160" height="120" alt="At the ceremony" />
+                            There were many opportunities in science high school. 
+                            I got a chance to visit America and Canada for the first time. There were also many competitions prepared. 
+                            Interested in <strong>earch science</strong>, I participated in many competitions. 
+                            I was able to get good results in the competition. 
+                            I also participated in the camp with good results at the <strong>Korean National Earth Science Olympiad</strong>.
+                        </p>
+                    </section>
+
+                </article>
+            </div>
+
+            <div id="sidebar">
+                <aside role="complementary">
+                    <h3>My Family</h3>
+                    <p>There are not many family photos from middle and high school. My sister and I have entered puberty one by one. 
+                    Because we were busy in school, <mark>we didn't have much time together.</mark> 
+                    But my parents supported our dream. 
+                    They often took me to the soccer stadium so that I could enjoy my hobby.
+                    </p>
+                    <figure id="eff">
+                        <figcaption>
+                            <b>Watching soccer with father</b><br/>
+                            2015.08.01 
+                        </figcaption>
+                        <img style="border-style: solid;" 
+                            width="175px" src="images/2_Family.JPG"
+                            alt="Me and my father" />
+                    </figure>
+                </aside>
+            </div>
+
+            <footer role="contentinfo">
+                <ul id="ft">
+                    <li><address> Author Contact:
+                        <a href="mailto:jihuka19@apu.ac.jp">jihuka19@apu.ac.jp</a>
+                    </address></li>
+                    <li id="cp"><small>&copy; Copyright 2021. All rights reserved.</small></li>
+                    <li id="ts">
+                        Last modified on: <time datetime="2021-02-03" pubdate="pubdate">
+                        February 3, 2021</time></li>
+                </ul>
+            </footer>
+        </div>
+
+    </body>
+</html>

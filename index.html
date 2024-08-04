@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>About My Life; KANG Jihun</title>
+            <link rel="stylesheet" href="styles/meyer-reset.css"/>
+            <link rel="stylesheet" href="styles/1-font-format-px.css"/>
+            <link rel="stylesheet" href="styles/2-color-format.css"/>
+            <link rel="stylesheet" href="styles/box-styling.css"/>
+            <link rel="stylesheet" href="styles/positioning.css"/>
+            <link rel="stylesheet" href="styles/layout-floating.css"/>
+
+
+        <style>
+            h2{
+                text-shadow: 5px 5px 5px #000000, 5px 5px 5px #ffffff;
+                position: relative;
+                animation-duration: 3s;
+                animation-name:bounce;
+            }
+            .inset-shadow {
+                -moz-box-shadow: inset 10px 10px 10px rgb(26, 82, 4);
+                -webkit-box-shadow: inset 10px 10px 10px rgb(26, 82, 4);
+                box-shadow: inset 10px 10px 10px rgb(26, 82, 4);
+            }
+            body, .inset-shadow, header#masthead, footer{
+                border-radius: 30px;
+            }
+            @keyframes bounce {
+                from {
+                    top: 0px;
+                    animation-timing-function: ease-out;
+                }
+                25% {
+                    top: -20px;
+                    animation-timing-function: ease-in;
+                }
+                50% {
+                    top: 0px;
+                    animation-timing-function: ease-out;
+                }
+                75% {
+                    top: -10px;
+                    animation-timing-function: ease-in;
+                }
+                to {
+                    top: 0px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="inset-shadow">
+            <header id="masthead" role="banner">
+                <nav role="navigation">
+                    <ul id="toc">
+                        <li><a href="index.html">Elementary Times</a></li>
+                        <li><a href="index2.html">Middle & High School Times</a></li>
+                        <li><a href="index3.html">APU</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="content" role="main">
+                <article class="Overview">
+                    <h2 id="intro">12219042 KANG Jihun Elementary Times</h2>
+
+                   <p>When I was young, I was a <mark>boy who liked science.</mark> On my way home from school, I enjoyed collecting insects.
+                    When I got home, I was busy reading science books and making something with <strong>Lego blocks</strong>. 
+                    The knowledge back then is helping me to look at the problem with a scientific perspective <mark>even now that I am studying liberal arts</mark>. 
+                    Luckily, I was able to have a chance to participate in the <strong>Science Gifted</strong> by the local government office. 
+                    It was a great pleasure for me to conduct the experiment by learning new knowledge every day.
+                    Now that I think about it, I think I studied chemical elements such as <abbr title="Potassium">K</abbr> and <abbr title="Calcium">Ca</abbr> very easily.
+                    </p>
+
+                    <section class="method">
+                        <h2>My Hobby That Time</h2>
+
+                        <p><img src="images/1_Book.JPG" width="160" height="120" alt="Books in living room"/>
+                            As I said above, my hobbies in <strong>elementary school</strong> were reading books and assembling blocks. 
+                            To encourage my hobby, my parents (<i>see sidebar.</i>) filled the living room with books like pictures. 
+                            There were various kinds of books. There were a wide range of books, from my favorite science books to various humanities books. 
+                            I read many books whenever I had time, and it <mark>became my nourishment.</mark> 
+                            As a child, the sentiments I wrote and read still remain on my <a href="https://blog.naver.com/bk8213/30139381150">my blog</a>.
+                        </p>
+                    </section>
+
+                    <section class="method">
+                        <h2>A Little Boast</h2>
+                        
+                        <p><img src="images/1_Gifted.JPG" width="160" height="120" alt="At the ceremony" />
+                            As I will mention later, I participated in the City Hall <strong>Science Gifted</strong> from 4th grade to 3rd grade in <a href="index2.html">middle school</a>. 
+                            I visit the science museum every Wednesday. 
+                            I took lessons from professional teachers. Also, I worked on my own various projects. 
+                            In the process, I was able to get various awards.
+                        </p>
+                    </section>
+
+                </article>
+            </div>
+
+            <div id="sidebar">
+                <aside role="complementary">
+                    <h3>My Family</h3>
+                    <p>Explanation of my family is essential to explain me. 
+                    So from now on, I will <mark>explain about my family in the sidebar.</mark>
+                    When I was in elementary school, my family was really harmonious. My brother was cute, I was eager to study.
+                    My parents really took care of us hard. Of course, it's the same until now.
+                    </p>
+                    <figure id="eff">
+                        <figcaption>
+                            <b>My Family</b><br/>
+                            2011.12.27 
+                        </figcaption>
+                        <img style="border-style: solid;" 
+                            width="175px" src="images/1_Family.JPG"
+                            alt="wpcr efficiency" />
+                    </figure>
+                </aside>
+            </div>
+
+            <footer role="contentinfo">
+                <ul id="ft">
+                    <li><address> Author Contact:
+                        <a href="mailto:jihuka19@apu.ac.jp">jihuka19@apu.ac.jp</a>
+                    </address></li>
+                    <li id="cp"><small>&copy; Copyright 2021. All rights reserved.</small></li>
+                    <li id="ts">
+                        Last modified on: <time datetime="2021-02-03" pubdate="pubdate">
+                        February 3, 2021</time></li>
+                </ul>
+            </footer>
+        </div>
+
+    </body>
+</html>

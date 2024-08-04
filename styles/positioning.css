@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div.inset-shadow {
+    position: relative;
+}
+
+div#content{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+
+div#sidebar{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}

@@ -1,0 +1,65 @@
+﻿@charset "UTF-8";
+
+strong, b{
+	font-weight: bold;
+	font-size: 150%;
+	}
+			
+em, i{
+	font-style: italic;
+}
+
+body {	
+	font: 100% Fantasy, serif;
+	}
+
+h2, h3 {
+	font: bold 20px Fantasy, serif; 
+	}
+	
+h2 {
+	text-transform: uppercase;
+	font-variant: small-caps;
+	}
+
+h3 {
+	font-size: 14px; 
+	}
+
+p {
+	font-size: 14px;
+	line-height: 1.6;
+	text-align: justify;
+	}			
+
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+a:visited {
+	text-decoration: none;
+	}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	}
+
+ul#toc li{
+	font-size: 14px; 
+	}
+
+
+aside p, figcaption {
+	font-size: 12px; 
+	}
+
+footer {
+	font-size: 13px; 
+	}
+
+li#ts{
+	font-size: 14px; 
+	font-style: oblique;
+	}
